@@ -1,0 +1,31 @@
+{
+	"name": "zeonica",
+	"version": "0.5.0",
+	"publisher": "andrewvallette",
+	"engines": { "vscode": "^1.25.1" },
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"displayName": "Zeonica",
+	"description": "A colorful dark theme",
+	"homepage": "https://www.zeonica.com",
+	"icon": "images/icon_128.png",
+	"categories": [
+		"Themes",
+		"Other"
+	],
+	"keywords": [
+		"theme",
+		"colorful",
+		"dark",
+		"blue",
+		"neon"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Zeonica",
+				"uiTheme": "vs-dark",
+				"path": "themes/Zeonica.json"
+			}
+		]
+	}
+}
