@@ -387,7 +387,7 @@
 			"name": "(CSS) Attribute Name: Class",
 			"scope": "entity.other.attribute-name.class.css",
 			"settings": {
-				"foreground": "#bfbfbf"
+				"foreground": "#F0F0FF"
 			}
 		},
 		{
@@ -414,6 +414,13 @@
 		{
 			"name": "(CSS) Property Name",
 			"scope": "support.type.property-name.css",
+			"settings": {
+				"foreground": "#bfbfbf"
+			}
+		},
+		{
+			"name": "(CSS) Property Value",
+			"scope": "support.constant.property-value.css",
 			"settings": {
 				"foreground": "#8cc6ff"
 			}
@@ -563,7 +570,7 @@
 			"name": "(JSON) Punctuation: Array Separator",
 			"scope": "punctuation.separator.array.json",
 			"settings": {
-				"foreground": "#94fff6"
+				"foreground": "#e5b2ff"
 			}
 		},
 		{
