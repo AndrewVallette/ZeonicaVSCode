@@ -1,10 +1,8 @@
 {
 	"name": "zeonica",
-	"version": "0.6.0",
+	"version": "0.7.0",
 	"publisher": "andrewvallette",
-	"engines": {
-		"vscode": "^1.25.1"
-	},
+	"engines": { "vscode": "^1.25.1" },
 	"license": "SEE LICENSE IN LICENSE.txt",
 	"displayName": "Zeonica",
 	"description": "A colorful dark theme",
@@ -29,10 +27,5 @@
 				"path": "themes/Zeonica.json"
 			}
 		]
-	},
-	"__metadata": {
-		"id": "0fd4f296-5ea4-49f0-8044-e885ad67e3a0",
-		"publisherId": "5d8930f7-0469-4971-b7ec-9e98f2d5e778",
-		"publisherDisplayName": "Andrew Vallette"
 	}
 }

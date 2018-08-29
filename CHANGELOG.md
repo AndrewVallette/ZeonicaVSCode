@@ -1,5 +1,18 @@
 # **Zeonica** Changelog
 
+## **0.7.0** August 27th, 2018
+
+- Tweaked several background/border colors.
+- Fixed incorrect Search Highlight color (missing opacity value).
+- Border color for selected Tab changed to pink.
+- Improved Console colors.
+- Brightened some hover colors.
+- Changed activeBorder color in Panels from blue to pink (this is the line shown below Debug Console, Terminal, etc).
+- Tweaked various color rules (Comments, Editor line number, and more).
+- Updated Zeonica icon and screenshots.
+- Misc minor improvements.
+
+---
 
 ## **0.6.0** August 27th, 2018
 
