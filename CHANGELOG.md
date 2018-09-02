@@ -1,9 +1,21 @@
 # **Zeonica** Changelog
 
+## **0.8.0** September 2nd, 2018
+
+- Added Breadcrumb coloring.
+- Adjusted Comment and Editor Line Number colors.
+- Changed Bracket Highlight border to pink.
+- Added editorGroup.emptyBackground color.
+- Removed deprecated editorGroup.background color.
+- Added some colors for the new Settings Editor.
+- Improved Terminal colors.
+
+---
+
 ## **0.7.1** August 28th, 2018
 
 - Improved Terminal colors.
-- Slightly lightened text in some areas (Default foreground, Input placeholder text, Editor line numbers).
+- Slightly lightened text in some areas (Default foreground, Input placeholder text, Editor Line Number).
 
 ---
 
@@ -15,7 +27,7 @@
 - Improved Terminal colors.
 - Brightened some hover colors.
 - Changed activeBorder color in Panels from blue to pink (this is the line shown below Debug Console, Terminal, etc).
-- Tweaked various color rules (Comments, Editor line number, and more).
+- Tweaked various color rules (Comments, Editor Line Number, and more).
 - Updated Zeonica icon.
 - Misc minor improvements.
 
