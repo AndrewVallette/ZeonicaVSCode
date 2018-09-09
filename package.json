@@ -1,11 +1,11 @@
 {
 	"name": "zeonica",
-	"version": "0.8.0",
+	"version": "0.8.1",
 	"publisher": "andrewvallette",
 	"engines": { "vscode": "^1.25.1" },
 	"license": "SEE LICENSE IN LICENSE.txt",
 	"displayName": "Zeonica",
-	"description": "A colorful original theme with a deep blue background",
+	"description": "A colorful original theme with a dark blue background",
 	"homepage": "https://www.zeonica.com",
 	"icon": "images/icon_256.png",
 	"categories": [
