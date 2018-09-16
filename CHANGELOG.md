@@ -1,9 +1,16 @@
 # **Zeonica** Changelog
 
+## **0.9.0** September 16th, 2018
+
+- Added new menu and menubar colors.
+- Added titleBar colors.
+
+---
+
 ## **0.8.1** September 9th, 2018
 
-- Added more editorOverviewRuler colors
-- Fixed Terminal selection color
+- Added more editorOverviewRuler colors.
+- Fixed Terminal selection color.
 
 ---
 
