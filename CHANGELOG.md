@@ -1,8 +1,18 @@
 # **Zeonica** Changelog
 
+## **1.0.0** December 9th, 2018
+
+- Improved hover colors used in Menu, Menubar, and Notifications.
+- Changed focusBorder color.
+- Changed tab.unfocusedInactiveForeground color.
+- Changed editorGroup.border color.
+- Added list.inactiveFocusBackground color.
+
+---
+
 ## **0.9.0** September 16th, 2018
 
-- Added new menu and menubar colors.
+- Added new Menu and Menubar colors.
 - Added titleBar colors.
 
 ---

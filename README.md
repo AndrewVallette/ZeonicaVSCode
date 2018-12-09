@@ -1,8 +1,6 @@
-# Zeonica 0.9.0
+# Zeonica 1.0.0
 
 Zeonica is a colorful and (hopefully) aesthetically-pleasing original dark theme designed by Andrew Vallette for Visual Studio Code.
-
-This is one of the first public releases of Zeonica, so it is certainly possible that some issues exist. If you do encounter something that doesn't look quite right, please feel free to let me know (see Contact section below).
 
 ---
 
@@ -12,15 +10,15 @@ This is one of the first public releases of Zeonica, so it is certainly possible
 
 ---
 
-JavaScript:
-
-![Zeonica](https://zeonicacom.files.wordpress.com/2018/09/zeonica_javascript_840.png "Zeonica (JavaScript)")
-
----
-
 PowerShell:
 
 ![Zeonica](https://zeonicacom.files.wordpress.com/2018/09/zeonica_powershell_840.png "Zeonica (PowerShell)")
+
+---
+
+JavaScript:
+
+![Zeonica](https://zeonicacom.files.wordpress.com/2018/09/zeonica_javascript_840.png "Zeonica (JavaScript)")
 
 ---
 
