@@ -1,6 +1,6 @@
 Zeonica for Visual Studio Code
 
-Copyright (C) 2017, 2018 Andrew Vallette
+Copyright (C) 2017-2020 Andrew Vallette
 
 The MIT License
 

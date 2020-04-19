@@ -1,5 +1,14 @@
 # **Zeonica** Changelog
 
+## **1.1.0** February 23rd, 2020
+
+- Added activityBar.activeBorder color.
+- Added activityBar.inactiveForeground color.
+- Added minimap.findMatchHighlight color.
+- Updated icon.
+
+---
+
 ## **1.0.0** December 9th, 2018
 
 - Improved hover colors used in Menu, Menubar, and Notifications.

@@ -1,10 +1,12 @@
 {
 	"type": "dark",
 	"colors": {
+		"activityBar.activeBorder": "#ad366e",
 		"activityBar.background": "#01001d",
 		"activityBar.border": "#2f2d6b",
 		"activityBar.dropBackground": "#322EA6",
 		"activityBar.foreground": "#F4F4FF",
+		"activityBar.inactiveForeground": "#c4c2fc",
 		"activityBarBadge.background": "#ad366e",
 		"activityBarBadge.foreground": "#ffffff",
 		"badge.background": "#ad366e",
@@ -99,6 +101,7 @@
 		"menubar.selectionForeground": "#ffffff",
 		"menubar.selectionBorder": "#ad366e",
 		"merge.border": "#5c59b3",
+		"minimap.findMatchHighlight": "#ad366ebb",
 		"notification.background": "#242272",
 		"notification.foreground": "#ffffff",
 		"notification.buttonBackground": "#242272",
