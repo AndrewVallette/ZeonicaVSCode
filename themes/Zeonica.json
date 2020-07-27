@@ -201,6 +201,15 @@
 			}
 		},
 		{
+			"name": "Parameters",
+			"scope": [
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#F4F4FF"
+			}
+		},
+		{
 			"name": "Classes",
 			"scope": [
 				"entity.name.class",
@@ -218,6 +227,16 @@
 			}
 		},
 		{
+			"name": "Preprocessor",
+			"scope": [
+				"entity.name.function.preprocessor",
+				"entity.name.other.preprocessor.macro.predefined"
+			],
+			"settings": {
+				"foreground": "#e5b2ff"
+			}
+		},
+		{
 			"name": "Functions/Methods",
 			"scope": [
 				"entity.name.function",
@@ -226,6 +245,16 @@
 			],
 			"settings": {
 				"foreground": "#94fff6"
+			}
+		},
+		{
+			"name": "Properties/Members",
+			"scope": [
+				"support.type.property-name",
+				"variable.other.member"
+			],
+			"settings": {
+				"foreground": "#bfbfbf"
 			}
 		},
 		{
@@ -245,9 +274,8 @@
 		{
 			"name": "Operators",
 			"scope": [
-				"constant.other.color",
 				"keyword.operator",
-				"keyword.operator.class",
+				"keyword.operators",
 				"source.php.embedded.line"
 			],
 			"settings": {
@@ -260,7 +288,6 @@
 				"constant.character",
 				"constant.language",
 				"constant.other",
-				"keyword.other.unit",
 				"support.constant"
 			],
 			"settings": {
@@ -268,8 +295,23 @@
 			}
 		},
 		{
-			"name": "Numbers",
-			"scope": "constant.numeric",
+			"name": "Pointers",
+			"scope": [
+				"punctuation.definition.function.pointer.dereference",
+				"storage.modifier.pointer",
+				"punctuation.separator.pointer-access"
+			],
+			"settings": {
+				"foreground": "#ff9cbe"
+			}
+		},
+		{
+			"name": "Numeric",
+			"scope": [
+				"constant.numeric",
+				"constant.other.color.rgb-value.hex",
+				"keyword.other.unit.hexadecimal"
+			],
 			"settings": {
 				"foreground": "#fff6a6"
 			}
@@ -305,10 +347,74 @@
 			}
 		},
 		{
-			"name": "Other",
-			"scope": "entity.other",
+			"name": "Punctuation",
+			"scope": [
+				"punctuation.separator.comma",
+				"punctuation.other.comma",
+				"punctuation.other.period",
+				"punctuation.other.colon",
+				"punctuation.separator",
+				"punctuation.terminator"
+			],
+			"settings": {
+				"foreground": "#ffccb0"
+			}
+		},
+		{
+			"name": "Round Bracket",
+			"scope": [
+				"punctuation.definition.parameters.begin",
+				"punctuation.definition.parameters.end",
+				"punctuation.section.arguments.begin.bracket.round",
+				"punctuation.section.arguments.end.bracket.round",
+				"punctuation.section.parens.begin.bracket.round",
+				"punctuation.section.parens.end.bracket.round",
+				"punctuation.definition.arguments.begin.bracket.round",
+				"punctuation.definition.arguments.end.bracket.round",
+				"meta.brace.round"
+			],
 			"settings": {
 				"foreground": "#F4F4FF"
+			}
+		},
+		{
+			"name": "Square Bracket",
+			"scope": [
+				"punctuation.definition.bracket.square",
+				"punctuation.definition.begin.bracket.square",
+				"punctuation.definition.end.bracket.square",
+				"storage.modifier.array.bracket.square"
+			],
+			"settings": {
+				"foreground": "#ffccb0"
+			}
+		},
+		{
+			"name": "Other",
+			"scope": [
+				"entity.other",
+				"meta.block"
+			],
+			"settings": {
+				"foreground": "#F4F4FF"
+			}
+		},
+		{
+			"name": "(6502) Immediate",
+			"scope": [
+				"keyword.operators.immediate.ca65"
+			],
+			"settings": {
+				"foreground": "#e5b2ff"
+			}
+		},
+		{
+			"name": "(6502) Unnamed Label",
+			"scope": [
+				"constant.language.unnamed-label.ca65"
+			],
+			"settings": {
+				"foreground": "#FF9CBE"
 			}
 		},
 		{
@@ -322,31 +428,10 @@
 			}
 		},
 		{
-			"name": "(C) Preprocessor Definition",
-			"scope": "entity.name.function.preprocessor.c",
-			"settings": {
-				"foreground": "#e5b2ff"
-			}
-		},
-		{
-			"name": "(C) Preprocessor Parameter",
-			"scope": "variable.parameter.preprocessor.c",
-			"settings": {
-				"foreground": "#bfbfbf"
-			}
-		},
-		{
 			"name": "(C) Function Call (Parameters)",
 			"scope": "meta.function-call.c",
 			"settings": {
 				"foreground": "#F4F4FF"
-			}
-		},
-		{
-			"name": "(C) Members",
-			"scope": "variable.other.member.c",
-			"settings": {
-				"foreground": "#bfbfbf"
 			}
 		},
 		{
@@ -360,18 +445,6 @@
 			}
 		},
 		{
-			"name": "(C) Punctuation",
-			"scope": [
-				"punctuation.separator.delimiter.c",
-				"punctuation.terminator.statement.c",
-				"punctuation.definition.begin.bracket.square.c",
-				"punctuation.definition.end.bracket.square.c"
-			],
-			"settings": {
-				"foreground": "#ffccb0"
-			}
-		},
-		{
 			"name": "(C) Operators",
 			"scope": "punctuation.separator.dot-access.c",
 			"settings": {
@@ -379,13 +452,71 @@
 			}
 		},
 		{
+			"name": "(C++) Argument",
+			"scope": [
+				"variable.other.macro.argument.cpp"
+			],
+			"settings": {
+				"foreground": "#F4F4FF"
+			}
+		},
+		{
+			"name": "(C++) Types",
+			"scope": [
+				"meta.tail.enum.cpp",
+				"meta.tail.struct.cpp"
+			],
+			"settings": {
+				"foreground": "#4DF0AF"
+			}
+		},
+		{
+			"name": "(C++) Member Variable",
+			"scope": [
+				"variable.other.property.cpp"
+			],
+			"settings": {
+				"foreground": "#bfbfbf"
+			}
+		},
+		{
+			"name": "(C++) Namespace",
+			"scope": [
+				"entity.name.namespace.cpp",
+				"entity.name.scope-resolution.cpp"
+			],
+			"settings": {
+				"foreground": "#E5B2FF"
+			}
+		},
+		{
 			"name": "(C++) Operators",
 			"scope": [
+				"entity.name.function.operator.member",
 				"punctuation.separator.namespace.access.cpp",
 				"punctuation.separator.pointer-access.c"
 			],
 			"settings": {
 				"foreground": "#ff9cbe"
+			}
+		},
+		{
+			"name": "(C++) Reference",
+			"scope": [
+				"storage.modifier.reference.cpp"
+			],
+			"settings": {
+				"foreground": "#ff9cbe"
+			}
+		},
+		{
+			"name": "(C++) Template Brackets",
+			"scope": [
+				"punctuation.section.angle-brackets.begin.template.call.cpp",
+				"punctuation.section.angle-brackets.end.template.call.cpp"
+			],
+			"settings": {
+				"foreground": "#FF9CBE"
 			}
 		},
 		{
@@ -403,64 +534,28 @@
 			}
 		},
 		{
-			"name": "(C#) Operators",
+			"name": "(CSS) ID Selector",
 			"scope": [
-				"punctuation.accessor.cs"
+				"punctuation.definition.entity.css"
 			],
 			"settings": {
-				"foreground": "#ff9cbe"
+				"foreground": "#FF9CBE"
 			}
 		},
 		{
-			"name": "(C#) Punctuation",
+			"name": "(CSS) Keywords",
 			"scope": [
-				"punctuation.separator.comma.cs",
-				"punctuation.terminator.statement.cs"
+				"support.constant.property-value.css"
 			],
-			"settings": {
-				"foreground": "#ffccb0"
-			}
-		},
-		{
-			"name": "(CSS) Attribute Name: Class",
-			"scope": "entity.other.attribute-name.class.css",
-			"settings": {
-				"foreground": "#F4F4FF"
-			}
-		},
-		{
-			"name": "(CSS) Attribute Name: ID",
-			"scope": "entity.other.attribute-name.id.css",
-			"settings": {
-				"foreground": "#4DF0AF"
-			}
-		},
-		{
-			"name": "(CSS) Punctuation: Key-Value Separator",
-			"scope": "punctuation.separator.key-value.css",
-			"settings": {
-				"foreground": "#ff9cbe"
-			}
-		},
-		{
-			"name": "(CSS) URL",
-			"scope": "variable.parameter.url.css",
-			"settings": {
-				"foreground": "#b3fa9d"
-			}
-		},
-		{
-			"name": "(CSS) Property Name",
-			"scope": "support.type.property-name.css",
-			"settings": {
-				"foreground": "#bfbfbf"
-			}
-		},
-		{
-			"name": "(CSS) Property Value",
-			"scope": "support.constant.property-value.css",
 			"settings": {
 				"foreground": "#8cc6ff"
+			}
+		},
+		{
+			"name": "(CSS) Property",
+			"scope": "support.type.property-name.css",
+			"settings": {
+				"foreground": "#F4F4FF"
 			}
 		},
 		{
@@ -472,27 +567,55 @@
 		},
 		{
 			"name": "(CSS) Units",
-			"scope": "keyword.other.unit",
+			"scope": [
+				"keyword.other.unit.percentage.css",
+				"keyword.other.unit.em.css",
+				"keyword.other.unit.ex.css",
+				"keyword.other.unit.cap.css",
+				"keyword.other.unit.ch.css",
+				"keyword.other.unit.ic.css",
+				"keyword.other.unit.rem.css",
+				"keyword.other.unit.lh.css",
+				"keyword.other.unit.rlh.css",
+				"keyword.other.unit.vw.css",
+				"keyword.other.unit.vh.css",
+				"keyword.other.unit.vi.css",
+				"keyword.other.unit.vb.css",
+				"keyword.other.unit.vmin.css",
+				"keyword.other.unit.vmax.css",
+				"keyword.other.unit.cm.css",
+				"keyword.other.unit.mm.css",
+				"keyword.other.unit.Q.css",
+				"keyword.other.unit.in.css",
+				"keyword.other.unit.pt.css",
+				"keyword.other.unit.pc.css",
+				"keyword.other.unit.px.css"
+			],
 			"settings": {
-				"foreground": "#fff6a6"
+				"foreground": "#FF9CBE"
 			}
 		},
 		{
-			"name": "(CSS) Punctuation (Definition Entity)",
+			"name": "(CSS) URL",
+			"scope": "variable.parameter.url.css",
+			"settings": {
+				"foreground": "#b3fa9d"
+			}
+		},
+		{
+			"name": "(CSS) Wildcard",
+			"scope": "entity.name.tag.wildcard.css",
+			"settings": {
+				"foreground": "#FF9CBE"
+			}
+		},
+		{
+			"name": "(C#) Operators",
 			"scope": [
-				"punctuation.definition.entity.css"
+				"punctuation.accessor.cs"
 			],
 			"settings": {
 				"foreground": "#ff9cbe"
-			}
-		},
-		{
-			"name": "(CSS) Punctuation",
-			"scope": [
-				"punctuation.terminator.rule.css"
-			],
-			"settings": {
-				"foreground": "#ffccb0"
 			}
 		},
 		{
@@ -555,8 +678,7 @@
 		{
 			"name": "(Java) Punctuation",
 			"scope": [
-				"punctuation.bracket.square.java",
-				"punctuation.terminator.java"
+				"punctuation.bracket.square.java"
 			],
 			"settings": {
 				"foreground": "#ffccb0"
@@ -575,12 +697,17 @@
 			"name": "(JavaScript) Punctuation",
 			"scope": [
 				"meta.brace.square.js",
-				"punctuation.separator.comma.js",
-				"punctuation.separator.parameter.js",
-				"punctuation.terminator.statement.js"
+				"punctuation.separator.parameter.js"
 			],
 			"settings": {
 				"foreground": "#ffccb0"
+			}
+		},
+		{
+			"name": "(JavaScript) Property",
+			"scope": "variable.other.property.js",
+			"settings": {
+				"foreground": "#bfbfbf"
 			}
 		},
 		{
@@ -729,6 +856,15 @@
 			}
 		},
 		{
+			"name": "(PowerShell) Variable Definition",
+			"scope": [
+				"punctuation.definition.variable.powershell"
+			],
+			"settings": {
+				"foreground": "#4DF0AF"
+			}
+		},
+		{
 			"name": "(PowerShell) Punctuation",
 			"scope": [
 				"punctuation.section.bracket.begin.powershell",
@@ -869,23 +1005,6 @@
 			}
 		},
 		{
-			"name": "(PHP) Round Bracket",
-			"scope": [
-				"punctuation.definition.arguments.begin.bracket.round.php",
-				"punctuation.definition.arguments.end.bracket.round.php"
-			],
-			"settings": {
-				"foreground": "#F4F4FF"
-			}
-		},
-		{
-			"name": "(PHP) Property",
-			"scope": "variable.other.property.php",
-			"settings": {
-				"foreground": "#bfbfbf"
-			}
-		},
-		{
 			"name": "(PHP) Inheritance Separator",
 			"scope": "punctuation.separator.inheritance.php",
 			"settings": {
@@ -904,6 +1023,16 @@
 			}
 		},
 		{
+			"name": "(Python) List",
+			"scope": [
+				"punctuation.definition.list.begin.python",
+				"punctuation.definition.list.end.python"
+			],
+			"settings": {
+				"foreground": "#FFCCB0"
+			}
+		},
+		{
 			"name": "(Python) Punctuation",
 			"scope": [
 				"punctuation.definition.arguments.begin.python",
@@ -912,6 +1041,20 @@
 			],
 			"settings": {
 				"foreground": "#ff9cbe"
+			}
+		},
+		{
+			"name": "(SCSS) Combinator",
+			"scope": "meta.property-list.scss",
+			"settings": {
+				"foreground": "#FF9CBE"
+			}
+		},
+		{
+			"name": "(SCSS) URL",
+			"scope": "variable.parameter.url.scss",
+			"settings": {
+				"foreground": "#b3fa9d"
 			}
 		},
 		{
@@ -927,9 +1070,7 @@
 			"name": "(TypeScript) Punctuation",
 			"scope": [
 				"meta.brace.square.ts",
-				"punctuation.separator.comma.ts",
-				"punctuation.separator.parameter.ts",
-				"punctuation.terminator.statement.ts"
+				"punctuation.separator.parameter.ts"
 			],
 			"settings": {
 				"foreground": "#ffccb0"

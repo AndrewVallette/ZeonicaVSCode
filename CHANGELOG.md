@@ -1,5 +1,12 @@
 # **Zeonica** Changelog
 
+## **1.2.0** July 26th, 2020
+
+- Improved generic coloring rules.
+- Improved language-specific coloring rules for 6502 Assembly, C, C++, CSS, Go, JavaScript, PowerShell, Python, and SCSS.
+
+---
+
 ## **1.1.0** February 23rd, 2020
 
 - Added activityBar.activeBorder color.
