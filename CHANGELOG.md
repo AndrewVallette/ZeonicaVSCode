@@ -1,5 +1,17 @@
 # **Zeonica** Changelog
 
+## **1.3.0** August 11th, 2020
+
+- Added more coloring rules to Markdown and TypeScript.
+- Added colors for listFilterWidget, tree.indentGuidesStroke, and textPreformat.
+- Removed a secondary blue color used for list item selection.
+- Adjusted editorWidget background color due to list selection color changes.
+- Adjusted JSON theme so that it is more consistent with the others.
+- Fixed issue with numeric value coloring in some languages.
+- Fixed minor issue with SCSS bracket coloring.
+
+---
+
 ## **1.2.0** July 26th, 2020
 
 - Improved generic coloring rules.
