@@ -1,10 +1,10 @@
 {
+	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
 		"activityBar.activeBorder": "#ad366e",
 		"activityBar.background": "#01001d",
 		"activityBar.border": "#2f2d6b",
-		"activityBar.dropBackground": "#322EA6",
 		"activityBar.foreground": "#F4F4FF",
 		"activityBar.inactiveForeground": "#c4c2fc",
 		"activityBarBadge.background": "#ad366e",
@@ -38,6 +38,7 @@
 		"editor.findMatchBackground": "#322EA666",
 		"editor.findMatchHighlightBackground": "#ad366e66",
 		"editor.findRangeHighlightBackground": "#322EA666",
+		"editor.wordHighlightBackground": "#ad366e60",
 		"editorGroup.emptyBackground": "#01001d",
 		"editorGroup.border": "#2f2d6b",
 		"editorGroup.dropBackground": "#25375daa",
@@ -107,10 +108,6 @@
 		"menubar.selectionBorder": "#ad366e",
 		"merge.border": "#5c59b3",
 		"minimap.findMatchHighlight": "#ad366ebb",
-		"notification.background": "#242272",
-		"notification.foreground": "#ffffff",
-		"notification.buttonBackground": "#242272",
-		"notification.buttonHoverBackground": "#ad366ecf",
 		"notificationCenter.border": "#2f2d6b",
 		"notificationToast.border": "#2f2d6b",
 		"panel.border": "#2f2d6b",
@@ -134,7 +131,6 @@
 		"scrollbarSlider.background": "#5c59b388",
 		"scrollbarSlider.hoverBackground": "#ad366e88",
 		"settings.headerForeground": "#F4F4FF",
-		"settings.inactiveSelectedItemBorder": "#2f2d6b",
 		"sideBar.background": "#0a092e",
 		"sideBar.border": "#2f2d6b",
 		"sideBar.foreground": "#F4F4FF",
@@ -193,13 +189,6 @@
 		"widget.shadow": "#01001d"
 	},
 	"tokenColors": [
-		{
-			"name": "Default",
-			"settings": {
-				"foreground": "#F4F4FF",
-				"background": "#0a092e"
-			}
-		},
 		{
 			"name": "Comments",
 			"scope": "comment",
@@ -319,10 +308,7 @@
 			"name": "Numeric",
 			"scope": [
 				"constant.numeric",
-				"constant.other.color.rgb-value.hex",
-				"keyword.other.unit.hexadecimal",
-				"keyword.other.unit.octal",
-				"keyword.other.unit.binary"
+				"constant.other.color.rgb-value.hex"
 			],
 			"settings": {
 				"foreground": "#fff6a6"

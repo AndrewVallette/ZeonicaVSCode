@@ -1,5 +1,11 @@
 # **Zeonica** Changelog
 
+## **1.3.1** October 3rd, 2020
+
+- Adjusted numeric keyword coloring in some languages.
+- Added editor.wordHighlightBackground color.
+- Removed some colors that are no longer used.
+
 ## **1.3.0** August 11th, 2020
 
 - Added more coloring rules to Markdown and TypeScript.

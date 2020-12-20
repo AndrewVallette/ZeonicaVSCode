@@ -1,4 +1,4 @@
-# Zeonica 1.3.0
+# Zeonica 1.3.1
 
 Zeonica is a colorful and (hopefully) aesthetically-pleasing original dark theme designed by Andrew Vallette for Visual Studio Code.
 
@@ -6,7 +6,7 @@ Zeonica is a colorful and (hopefully) aesthetically-pleasing original dark theme
 
 ## Screenshots
 
-![Zeonica](https://user-images.githubusercontent.com/11849403/88505677-ff129380-cf8c-11ea-985f-1c03d8b70c9d.png "Zeonica")
+![Zeonica](https://zeonica.com/images/zeonica_screenshot_home.png)
 
 ---
 
@@ -14,7 +14,7 @@ Zeonica is a colorful and (hopefully) aesthetically-pleasing original dark theme
 
 Zeonica should work well with most source files, but some languages have received special attention. Those that are known to show up very well with this theme are listed below:
 
-* 6502 Assembly
+* Assembly (6502, x86)
 * Batch
 * C
 * C++
@@ -35,7 +35,6 @@ Zeonica should work well with most source files, but some languages have receive
 * Python
 * Rust
 * TypeScript
-* x86 Assembly
 * XML
 
 ---
@@ -55,4 +54,4 @@ This extension is licensed under the MIT License.
 ## Contact
 
 Email: andrew@zeonica.com<br>
-Web: [www.zeonica.com](https://www.zeonica.com)<br>
+Web: [zeonica.com](https://zeonica.com)<br>
