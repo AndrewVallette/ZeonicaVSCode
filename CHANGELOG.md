@@ -1,5 +1,10 @@
 # **Zeonica** Changelog
 
+## **1.4.0** January 3rd, 2021
+
+- Improved git-related item coloring in lists.
+- Added sash.hoverColor.
+
 ## **1.3.1** October 3rd, 2020
 
 - Adjusted numeric keyword coloring in some languages.

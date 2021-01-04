@@ -1,4 +1,4 @@
-# Zeonica 1.3.1
+# Zeonica 1.4.0
 
 Zeonica is a colorful and (hopefully) aesthetically-pleasing original dark theme designed by Andrew Vallette for Visual Studio Code.
 
