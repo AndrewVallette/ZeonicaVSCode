@@ -1,15 +1,27 @@
 # **Zeonica** Changelog
 
+## **2.0.0** March 6th, 2023
+
+- Numerous adjustments to UI and syntax coloring for default theme.
+- Added *Midnight* theme variant.
+- Added Zeonica to public GitHub repo: https://github.com/AndrewVallette/ZeonicaVSCode
+
+---
+
 ## **1.4.0** January 3rd, 2021
 
 - Improved git-related item coloring in lists.
 - Added sash.hoverColor.
+
+---
 
 ## **1.3.1** October 3rd, 2020
 
 - Adjusted numeric keyword coloring in some languages.
 - Added editor.wordHighlightBackground color.
 - Removed some colors that are no longer used.
+
+---
 
 ## **1.3.0** August 11th, 2020
 

@@ -1,4 +1,4 @@
-# Zeonica 1.4.0
+# Zeonica 2.0.0
 
 Zeonica is a colorful and (hopefully) aesthetically-pleasing original dark theme designed by Andrew Vallette for Visual Studio Code.
 
@@ -6,36 +6,21 @@ Zeonica is a colorful and (hopefully) aesthetically-pleasing original dark theme
 
 ## Screenshots
 
-![Zeonica](https://zeonica.com/images/zeonica_screenshot_home.png)
+![Zeonica](https://raw.githubusercontent.com/AndrewVallette/ZeonicaVSCode/main/images/zeonica_screenshot_hidpi.png)
 
 ---
 
 ## Language Support
 
-Zeonica should work well with most source files, but some languages have received special attention. Those that are known to show up very well with this theme are listed below:
+Zeonica should work well with most source files, but some languages have received special attention. Those that are known to show up very well with this theme are listed below.
 
-* Assembly (6502, x86)
-* Batch
-* C
-* C++
-* C#
-* CMake
-* CSS
-* Go
-* HTML
-* INI
-* Java
-* JavaScript
-* JSON
-* Makefile
-* Markdown
-* Perl
-* PHP
-* PowerShell
-* Python
-* Rust
-* TypeScript
-* XML
+| | | | | |
+| - | - | - | - | - |
+| Assembly (6502) | C# | INI | Markdown | Rust |
+| Assembly (x86) | CMake | Java | Perl | SCSS |
+| Batch | CSS | JavaScript | PHP | TypeScript |
+| C | Go | JSON | PowerShell | XML |
+| C++ | HTML | Makefile | Python | YAML |
 
 ---
 
@@ -47,7 +32,7 @@ In order to create the best possible experience, Zeonica contains over 100 langu
 
 ## License
 
-This extension is licensed under the MIT License.
+The MIT License.
 
 ---
 
@@ -55,3 +40,4 @@ This extension is licensed under the MIT License.
 
 Email: andrew@zeonica.com<br>
 Web: [zeonica.com](https://zeonica.com)<br>
+GitHub: https://github.com/AndrewVallette/ZeonicaVSCode<br>

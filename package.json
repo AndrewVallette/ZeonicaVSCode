@@ -1,16 +1,22 @@
 {
 	"name": "zeonica",
-	"version": "1.4.0",
+	"version": "2.0.0",
 	"publisher": "andrewvallette",
-	"engines": { "vscode": "^1.25.1" },
+	"engines": {
+		"vscode": "^1.25.1"
+	},
 	"license": "SEE LICENSE IN LICENSE.txt",
 	"displayName": "Zeonica",
 	"description": "A colorful original theme with a dark blue background",
 	"homepage": "https://zeonica.com",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AndrewVallette/ZeonicaVSCode"
+	},
 	"icon": "images/icon_256.png",
-    "galleryBanner": {
-        "color": "#01001d",
-        "theme": "dark"
+	"galleryBanner": {
+		"color": "#01001d",
+		"theme": "dark"
 	},
 	"categories": [
 		"Themes",
@@ -29,6 +35,11 @@
 				"label": "Zeonica",
 				"uiTheme": "vs-dark",
 				"path": "themes/Zeonica.json"
+			},
+			{
+				"label": "Zeonica (Midnight)",
+				"uiTheme": "vs-dark",
+				"path": "themes/Zeonica (Midnight).json"
 			}
 		]
 	}
